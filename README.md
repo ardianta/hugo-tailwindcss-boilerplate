@@ -1,3 +1,7 @@
+## Requirement
+
+- Hugo `extended` version.
+
 ## Install
 
 ```bash
