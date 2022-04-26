@@ -1,10 +1,10 @@
 module.exports = {
-  purge: ['layouts/**/*.html'],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    // "./content/**/*.{md,html}",
+    "./layouts/**/*.html",
+    "./themes/hugo-tailwind/layouts/**/*.html",
+  ],
   theme: {
-    extend: {},
-  },
-  variants: {
     extend: {},
   },
   plugins: [],
